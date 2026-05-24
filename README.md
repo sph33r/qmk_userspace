@@ -1,6 +1,8 @@
 # My QMK Keymaps
 
-So far I have maps created for thie following boards:
+## Current Maps
+
+So far I have maps created for the following boards:
 
 - 1upkeyboards/1up60hse
 - cannonkeys/db60
@@ -22,3 +24,9 @@ So far I have maps created for thie following boards:
 - tokyokeyboard/tokyo60
 
 These tend to have my default changes which I'll document one day.
+
+## Setup
+
+CD into the userspace directory and run `qmk config user.overlay_dir="$(realpath .)"`
+
+Then you can build with the standard commands.
